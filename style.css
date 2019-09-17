@@ -30,7 +30,7 @@ h2{
 		color: black;
 	}
 	to{
-		color:green;
+		color:blue;
 	}
 }
 
@@ -39,8 +39,14 @@ h2{
 		color: black;
 	}
 	to{
-		color:green;
+		color:blue;
 	}
+}
+
+p{
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 
