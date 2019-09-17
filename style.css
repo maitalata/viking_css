@@ -13,6 +13,36 @@ body{
 	margin: 10px;
 }
 
+h1{
+	font-size: 40px;
+	font-family: Times;
+	-webkit-animation: myAnimation 2s infinite;
+	animation: myAnimation 2s infinite;
+}
+
+h2{
+	font-size: 30px;
+	text-transform: capitalize;
+}
+
+@-webkit-keyframes myAnimation {
+	from{
+		color: black;
+	}
+	to{
+		color:green;
+	}
+}
+
+@keyframes myAnimation {
+	from{
+		color: black;
+	}
+	to{
+		color:green;
+	}
+}
+
 
 
 
